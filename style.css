@@ -168,6 +168,7 @@ h1 {
   opacity: 1.5;
   width: 40px;
   height: 40px;
+   box-shadow: 0px 20px 20px 0px hsl(210, 4%, 55%);
 }
 
 /* Set a specific color for each brand */
