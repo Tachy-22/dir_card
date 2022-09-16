@@ -1,0 +1,188 @@
+/* * {
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div {
+  /* background: red;
+    width: 350px; */
+/* width: 300px;
+  height: 300px;
+
+}
+
+.image {
+  margin-top: -100px;
+  background: linear-gradient(to right, rgb(177, 7, 35), rgb(248, 73, 102));
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+  height: 170px;
+  padding-top: 25px;
+  position: relative;
+}
+img {
+  box-shadow: 0px 9px 9px 0px rgb(24, 24, 23);
+  background: linear-gradient(white, white);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.circle {
+  width: 15px;
+  height: 15px;
+  background: rgb(4, 227, 4);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 15%;
+  right: 31%;
+}
+.content {
+  padding-top: 20px;
+  background: hsl(0, 0%, 100%);
+  border-bottom-left-radius: 13%;
+  border-bottom-right-radius: 13%;
+  box-shadow: 0px 20px 11px -5px rgb(86, 86, 80);
+}
+h1 {
+    color: rgb(159, 102, 102);
+  font-size: 50px;
+   padding: 0;
+}
+h3 {
+   margin: 10%;
+   font-weight: 300;
+  border-bottom: solid 1px black;
+ 
+  padding-bottom: 20px;
+}
+p{
+    font-weight: 300;
+    padding-top: 2%;
+} */
+
+html,
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: hsl(210, 64%, 96%);
+}
+div.container {
+  width: 350px;
+  height: 550px;
+  background: white;
+  border-top-left-radius: 30%;
+  border-top-right-radius: 30%;
+  border-bottom-left-radius: 15%;
+  border-bottom-right-radius: 15%;
+  box-shadow: 0px 20px 20px 0px hsl(210, 4%, 55%);
+  position: relative;
+}
+img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  box-shadow: 0px 7px 10px 3px rgb(75, 40, 40);
+}
+.image {
+  position: relative;
+  padding: 35px;
+  background: linear-gradient(to right, rgb(201, 22, 52), rgb(251, 127, 148));
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+}
+.circle {
+  border-radius: 50%;
+  position: absolute;
+  top: 75%;
+  left: 60%;
+  background: rgb(5, 212, 5);
+  width: 10px;
+  height: 10px;
+}
+.content {
+  position: relative;
+}
+.design_track {
+  position: absolute;
+  top: 80%;
+  left: 13%;
+  border-bottom: solid 2px rgb(159, 156, 156);
+  width: 75%;
+  padding-bottom: 30px;
+  font-weight: 200;
+}
+
+p {
+  font-size: 15px;
+  color: rgba(99, 73, 73, 0.998);
+}
+h1 {
+  font-size: 3rem;
+  color: rgba(99, 73, 73, 0.998);
+}
+#lower_text {
+  position: absolute;
+  display: block;
+  bottom: 105px;
+  left: 15%;
+  right: 15%;
+  text-align: center;
+  font-size: 0.9rem;
+}
+.links {
+  position: absolute;
+  bottom: 50px;
+  left: 20%;
+  right: 20%;
+}
+
+.fa {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 3px;
+  font-size: 40px;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 100%;
+  background: rgb(235, 50, 81);
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 1.5;
+  width: 40px;
+  height: 40px;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  color: white;
+}
+
+/* Twitter */
+.fa-linkedin {
+  color: white;
+}
