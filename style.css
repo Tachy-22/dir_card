@@ -150,13 +150,13 @@ h1 {
 }
 
 .fa {
-  display: flex;
+   display: flex;
   justify-content: center;
   align-content: center;
-  padding: 3px;
+  padding: 10px;
   font-size: 40px;
-  width: 25px;
-  height: 25px;
+  width: 12px;
+  height: 15px;
   text-align: center;
   text-decoration: none;
   border-radius: 100%;
@@ -168,7 +168,7 @@ h1 {
   opacity: 1.5;
   width: 40px;
   height: 40px;
-   box-shadow: 0px 20px 20px 0px hsl(210, 4%, 55%);
+  box-shadow: 0px 20px 20px 0px hsl(210, 4%, 55%);
 }
 
 /* Set a specific color for each brand */
