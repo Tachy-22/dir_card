@@ -13,7 +13,7 @@ Style the directory card using the style.css file, if needed.
 ## Example
 
 Here is an example of the directory card:
-Example Dir Card
+[Example Dir Card](https://tachy-22.github.io/dir_card/)
 Credits
 
 This directory card was created by [Jeffrey Entekume]. 
